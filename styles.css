@@ -4,15 +4,11 @@ body {
   color:white;
   text-align:center;
   font-family: Segoe UI;
-  font-size:larger
 }
-
 ol,ul {
   padding-left: 300px; 
   text-align: left;
 }
-
-
 
 .butt-size {
   display: flex;
