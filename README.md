@@ -17,4 +17,4 @@ Press the Button "Start Game" to make the PacMen go in random directions and spe
 
 
 
-<img src="PacMan1.png">
+<img src="./images/PacMan1.png">
