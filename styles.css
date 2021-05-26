@@ -70,13 +70,11 @@ body{
   background-color: black;
   color:white;
   font-family: Segoe UI;
-
 }
 ol,ul {
   padding-left: 20px; 
   text-align: left;
 }
-
 .butt-size {
   display: flex;
   justify-content: center; 
