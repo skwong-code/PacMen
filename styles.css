@@ -1,13 +1,76 @@
-.button1 {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Segoe UI;
+}
+/* The nav bar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /*Phone! looks wierd witout */
+  margin: 0; /* Phone! looks wierd without */
+}
+/* highlight on drop down */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgba(62, 62, 141, 0.507);
+}
+/* Hide dropdown*/
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(255, 0, 0, 0.2);
+  z-index: 1;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+/* highlight on the dropdown */
+.dropdown-content a:hover {
+  background-color:rgba(62, 62, 141, 0.507);
+}
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
+/* header stuff */
+h1,h2,h3,h4,h5,h6{
+  font-family:"Segoe UI",Arial,sans-serif;
+  font-weight:400;margin:10px 0
+}
 body{
+  width: 99%;
+  padding: 0;
   background-color: black;
   color:white;
-  text-align:left;
-
   font-family: Segoe UI;
+
 }
 ol,ul {
   padding-left: 20px; 
@@ -18,86 +81,9 @@ ol,ul {
   display: flex;
   justify-content: center; 
   height: 75px;
-  background-color: black;
-  color:red;
 }
-
 .header {
    background-color: black;
 }
 
-/* header stuff */
-h1,h2,h3,h4,h5,h6{
-  font-family:"Segoe UI",Arial,sans-serif;
-  font-weight:400;margin:10px 0
-}
-
-/* ------------------------------------------------*/
-/* Navbar container */
-.navbar {
-    overflow: hidden;
-    background-color: #333;
-    font-family: Segoe UI;
-  }
-  
-  /* The nav bar */
-  .navbar a {
-    float: left;
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /* The dropdown container */
-  .dropdown {
-    float: left;
-    overflow: hidden;
-  }
-  
-  /* Dropdown button */
-  .dropdown .dropbtn {
-    font-size: 16px;
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit; /*Phone! looks wierd witout */
-    margin: 0; /* Phone! looks wierd without */
-  }
-  
-  /* highlight on drop down */
-  .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: rgba(62, 62, 141, 0.507);
-  }
-  
-  /* Hide dropdown*/
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(255, 0, 0, 0.2);
-    z-index: 1;
-  }
-  
-  /* Links inside the dropdown */
-  .dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-  
-  /* highlight on the dropdown */
-  .dropdown-content a:hover {
-    background-color:rgba(62, 62, 141, 0.507);
-  }
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
 
