@@ -1,12 +1,13 @@
 
-body {
+body{
   background-color: black;
   color:white;
-  text-align:center;
+  text-align:left;
+
   font-family: Segoe UI;
 }
 ol,ul {
-  padding-left: 300px; 
+  padding-left: 20px; 
   text-align: left;
 }
 
@@ -15,6 +16,16 @@ ol,ul {
   justify-content: center; 
   height: 75px;
   background-color: black;
+}
+
+.header {
+   background-color: black;
+}
+
+/* header stuff */
+h1,h2,h3,h4,h5,h6{
+  font-family:"Segoe UI",Arial,sans-serif;
+  font-weight:400;margin:10px 0
 }
 
 /* ------------------------------------------------*/
@@ -86,22 +97,3 @@ ol,ul {
     display: block;
   }
 
-/* header stuff */
-  h1,h2,h3,h4,h5,h6{
-    font-family:"Segoe UI",Arial,sans-serif;
-    font-weight:400;margin:10px 0
-}
-
-.justify{
-    text-align:justify;
-}
-.wide{
-    letter-spacing:4px;
-}
-
-.opacity-max{
-    opacity:0.25;
-}
-.opacity-min{
-    opacity:0.75;
-}
