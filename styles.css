@@ -1,3 +1,6 @@
+.button1 {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
 
 body{
   background-color: black;
@@ -16,6 +19,7 @@ ol,ul {
   justify-content: center; 
   height: 75px;
   background-color: black;
+  color:red;
 }
 
 .header {
