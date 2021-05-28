@@ -5,6 +5,7 @@ Hello! This is another learning project for School
 **Explanation**
 
 The project assignment was by MIT XPro. This assignment practices fundamental JavaScript skills making use of
+
 •	DOM manipulation
 •	CSS manipulation
 
