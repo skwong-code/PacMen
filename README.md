@@ -14,6 +14,13 @@ Spawn a PacMan each time a button was pressed.
 Pressing a start game button will make all the PacMen go in random direction and speed.
 When a Pacman hits the edge of the browser window it will reverse direction and not continue its path off the window. 
 
+**How to Run**
+I have installed github pages, this project should run in the browser at this location:
+
+https://skwong-code.github.io/PacMen/ 
+
+This page is apart of my portfolio page. 
+
 **Future Improvements**
 
 At the current moment the created PacMan is going in different random direction and speed, however they are not being faced in the direction.  I also will need to add the ability to “chomp” as the images are currently static
